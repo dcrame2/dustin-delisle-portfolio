@@ -21,6 +21,7 @@ export default async function OGImage() {
           display: "flex",
           position: "relative",
           fontFamily: "system-ui, sans-serif",
+          backgroundColor: "#0f172a",
         }}
       >
         {/* Dark navy background with gradient */}
@@ -43,7 +44,7 @@ export default async function OGImage() {
             width: 400,
             height: 400,
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(37,99,235,0.15) 0%, transparent 70%)",
+            background: "radial-gradient(circle, rgba(37,99,235,0.15) 0%, rgba(15,23,42,0) 70%)",
             display: "flex",
           }}
         />
@@ -55,7 +56,7 @@ export default async function OGImage() {
             width: 500,
             height: 500,
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(37,99,235,0.1) 0%, transparent 70%)",
+            background: "radial-gradient(circle, rgba(37,99,235,0.1) 0%, rgba(15,23,42,0) 70%)",
             display: "flex",
           }}
         />
@@ -132,12 +133,12 @@ export default async function OGImage() {
             <div
               style={{
                 fontSize: 18,
-                color: "#94a3b8",
+                color: "#cbd5e1",
                 lineHeight: 1.5,
                 display: "flex",
               }}
             >
-              6+ Years in Logistics · Chicago, IL
+              6+ Years in Logistics  ·  Chicago, IL
             </div>
 
             {/* Stats row */}
@@ -175,7 +176,7 @@ export default async function OGImage() {
                     style={{
                       fontSize: 12,
                       fontWeight: 600,
-                      color: "#64748b",
+                      color: "#94a3b8",
                       textTransform: "uppercase" as const,
                       letterSpacing: 2,
                       display: "flex",
